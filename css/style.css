@@ -10,7 +10,7 @@
 .calculadora {
     position: absolute;
     background-color: rgba(110, 39, 110, 0.437);
-    top: 56%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 15px;
