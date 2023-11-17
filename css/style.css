@@ -1,0 +1,87 @@
+﻿.fundo {
+    background-image: linear-gradient(45deg, deeppink, pink,orange);
+    height: 92vh;
+    color: white;
+    font-family: Comic Sans Ms;
+    text-align: center;
+}
+
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(110, 39, 110, 0.437);
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgba(255, 192, 203, 0.758);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.botao:hover {
+    background-color: rgb(126, 28, 218);
+}
+
+#resultado {
+    background-color: white;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    color: blueviolet;
+    font-size: 25px;
+}
+
+footer {
+    background:rgb(85, 47, 120);;
+    color: white;
+    padding: 10px;
+    
+    text-align: center;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:hover {
+    color: white;
+    background-color: deeppink;
+
+}
+
+
+
+.outer-container {
+    background: rgb(85, 47, 120);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color:aliceblue;
+}

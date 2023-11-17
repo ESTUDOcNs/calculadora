@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="./js/calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body><div class="outer-container">
+            <div class="social-icons">
+                <a href="https://br.linkedin.com/in/carla-silva-01b707216"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100081747006540"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a><a href="https://github.com/ESTUDOcNs"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/karlla.seavon/"><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fas fa-globe"></i></a>
+                <a href="https://wa.me/5521983678137"><i class="fab fa-whatsapp"></i></a><a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    <div class="fundo">
+        
+        <div class="calculadora">
+            <h2> Calculadora</h2>
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td> <button class="botao" onclick="limpar()">C</button></td>
+                    <td> <button class="botao" onclick="voltar()">&lt;</button></td>
+                    <td> <button class="botao" onclick="insert('/')">/</button></td>
+                    <td> <button class="botao" onclick="insert('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td> <button class="botao" onclick="insert('7')">7</button></td>
+                    <td> <button class="botao" onclick="insert('8')">8</button></td>
+                    <td> <button class="botao" onclick="insert('9')">9</button></td>
+                    <td> <button class="botao" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td> <button class="botao" onclick="insert('4')">4</button></td>
+                    <td> <button class="botao" onclick="insert('5')">5</button></td>
+                    <td> <button class="botao" onclick="insert('6')">6</button></td>
+                    <td> <button class="botao" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td> <button class="botao" onclick="insert('1')">1</button></td>
+                    <td> <button class="botao" onclick="insert('2')">2</button></td>
+                    <td> <button class="botao" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"> <button class="botao" style="height:106px" onclick="calcular('')">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <button class="botao" style="width:106px" onclick="insert('0')">0</button></td>
+                    <td> <button class="botao" onclick="insert('.')">.</button></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/ESTUDOcNs"> Carla N. SILVA</a> no Curso de Programador Front-End
+            com
+            o Prof.<a  class="prof" href="https://github.com/sammyfreitas"> Anthony Freitas</a>
+        Todos os direitos reservados - Senai Maracanã - 2023
+        - 2023 ©</p>
+    </footer>
+</body>
+
+</html>
